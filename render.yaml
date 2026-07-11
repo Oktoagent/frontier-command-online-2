@@ -1,0 +1,22 @@
+services:
+  - type: redis
+    name: frontier-command-player-wins
+    plan: free
+    ipAllowList: []
+    maxmemoryPolicy: allkeys-lru
+
+  - type: web
+    name: frontier-command-online
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: frontier-command-player-wins
+          property: connectionString

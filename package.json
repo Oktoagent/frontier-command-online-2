@@ -1,0 +1,17 @@
+{
+  "name": "frontier-command-online",
+  "version": "31.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test-server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "redis": "^5.8.2",
+    "ws": "^8.18.3"
+  }
+}
