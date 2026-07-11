@@ -1,4 +1,4 @@
-# Frontier Command Online – Build 32
+# Frontier Command Online – Build 33
 
 ## Öffentlicher Online-Multiplayer
 
@@ -23,7 +23,13 @@ Für Spieler aus dem Internet muss Port 8080 erreichbar sein oder der Server auf
 
 - Echtes WebSocket-Matchmaking ohne Bots für 1v1, 3v3 und 5v5
 - Start erst bei exakt 2, 6 oder 10 verbundenen Spielern
-- Autoritative Server-Simulation für Bewegung, Kampf, Basen, Einkommen und Produktion
+- Autoritative Vollspiel-Simulation für Bewegung, Kampf, Basen, Einkommen und Produktion
+- Alle 15 spielbaren Truppentypen mit Forschungsvoraussetzungen
+- 18 baubare Gebäude mit Bauzeit, Energie, Truppenlimit und verwundbaren Baustellen
+- Drei vollständige Forschungszweige: Wirtschaft, Militär und Technik
+- Schrottfelder, Berger, passive Wirtschaft und dauerhafte Kartenressourcen
+- Feldtechniker, Sanitäter und Reparaturbuchten mit Kampfsperrzeit
+- Raketen, Flächenschaden, Baustellen, Schutzfelder und animierte Gefechtseffekte
 - Dauerhafte Top-100-Rangliste nach Player-Wins in `data/player-wins.json`
 - Allianzanfragen, Annahme, Ablehnung und Auflösung während einer Partie
 - Serverseitige Prüfung von Einheitenbesitz, Kosten, Limits und Befehlen
