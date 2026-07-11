@@ -1,4 +1,4 @@
-# Frontier Command Online – Build 31
+# Frontier Command Online – Build 32
 
 ## Öffentlicher Online-Multiplayer
 

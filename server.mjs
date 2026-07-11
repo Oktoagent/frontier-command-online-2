@@ -56,7 +56,31 @@ function handleCommand(ws,msg){let room=rooms.get(ws.roomId),player=room&&player
   if(msg.type==='alliance_break'){let target=playerById(room,String(msg.targetPlayerId));if(target){room.alliances.delete(allianceKey(player.id,target.id));roomBroadcast(room,'alliance_update',{alliances:[...room.alliances],message:`${player.name} broke an alliance`})}}
 }
 
-const server=http.createServer((req,res)=>{let url=new URL(req.url,'http://localhost');if(url.pathname==='/health'){res.writeHead(200,{'content-type':'application/json'});return res.end(JSON.stringify({ok:true,rooms:rooms.size,queues:Object.fromEntries([...queues].map(([k,v])=>[k,v.length]))}))}let file=url.pathname==='/'?'frontier-command.html':url.pathname.slice(1);if(!['frontier-command.html'].includes(file)){res.writeHead(404);return res.end('Not found')}fs.readFile(path.join(ROOT,file),(err,data)=>{if(err){res.writeHead(404);res.end('Not found')}else{res.writeHead(200,{'content-type':'text/html; charset=utf-8','cache-control':'no-store'});res.end(data)}})});
+function requestPath(req){
+  const raw=String(req.url||'/');
+  try{return new URL(raw,'http://render.local').pathname.replace(/\/+$/,'')||'/'}
+  catch{return raw.split('?')[0].replace(/\/+$/,'')||'/'}
+}
+function statusPayload(){return {ok:true,build:'32.0.0',rooms:rooms.size,queues:Object.fromEntries([...queues].map(([k,v])=>[k,v.length])),time:new Date().toISOString()}}
+const server=http.createServer((req,res)=>{
+  const pathname=requestPath(req);
+  console.log(`[HTTP] ${req.method||'GET'} ${pathname}`);
+  res.setHeader('x-frontier-build','32.0.0');
+  if(['/health','/healthz','/api/status'].includes(pathname)){
+    res.writeHead(200,{'content-type':'application/json; charset=utf-8','cache-control':'no-store'});
+    return res.end(req.method==='HEAD'?'':JSON.stringify(statusPayload()));
+  }
+  const file=pathname==='/'?'frontier-command.html':pathname.slice(1);
+  if(file!=='frontier-command.html'){
+    res.writeHead(404,{'content-type':'text/plain; charset=utf-8','cache-control':'no-store'});
+    return res.end(`Frontier Command Build 32: route not found (${pathname})`);
+  }
+  fs.readFile(path.join(ROOT,file),(err,data)=>{
+    if(err){res.writeHead(404,{'content-type':'text/plain; charset=utf-8'});return res.end('Frontier Command: game file not found')}
+    res.writeHead(200,{'content-type':'text/html; charset=utf-8','cache-control':'no-store'});
+    res.end(req.method==='HEAD'?'':data);
+  });
+});
 const wss=new WebSocketServer({server,path:'/ws'});
 wss.on('connection',ws=>{ws.clientId=crypto.randomUUID();ws.rate={at:Date.now(),count:0};send(ws,'connected',{clientId:ws.clientId,modes:MODES});ws.on('message',raw=>{let now=Date.now();if(now-ws.rate.at>1000)ws.rate={at:now,count:0};if(++ws.rate.count>80)return;let msg;try{msg=JSON.parse(String(raw))}catch{return}if(msg.type==='hello'){ws.player={id:ws.clientId,profileId:cleanId(msg.profileId),name:cleanName(msg.name)};send(ws,'hello',{player:ws.player,leaderboard:leaderboard(),modes:MODES});return}if(msg.type==='leaderboard'){send(ws,'leaderboard',{leaderboard:leaderboard()});return}if(msg.type==='queue_join'){let mode=String(msg.mode);if(!ws.player||!MODES[mode]||ws.roomId)return;leaveQueue(ws,false);let q=queues.get(mode);if(!q.includes(ws))q.push(ws);ws.queueMode=mode;let snap=publishQueue(mode);if(snap.found===snap.required){let sockets=q.splice(0,snap.required);publishQueue(mode);createRoom(mode,sockets)}return}if(msg.type==='queue_leave'){leaveQueue(ws);return}handleCommand(ws,msg)});ws.on('close',()=>{leaveQueue(ws,false);let room=rooms.get(ws.roomId);if(room&&!room.ended){roomBroadcast(room,'player_disconnected',{playerId:ws.player?.id});let player=playerById(room,ws.player?.id),team=player?.team;if(team!==undefined&&!room.players.some(p=>p.team===team&&p.ws.readyState===WebSocket.OPEN))finishRoom(room,1-team,'team_disconnected')}})});
 setInterval(()=>{let now=Date.now();for(const room of rooms.values()){let dt=Math.min(.2,(now-room.last)/1000);room.last=now;updateRoom(room,dt);if(!room.ended)roomBroadcast(room,'state',{state:snapshot(room)})}},100);
