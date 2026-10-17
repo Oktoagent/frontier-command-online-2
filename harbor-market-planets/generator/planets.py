@@ -210,7 +210,7 @@ def pelagia():
 
     p.meta.update(tagline="Der freundliche Ozeanplanet",
                   features=["Zentrale Handelsinsel aus Sandstein über einer Sandsteinterrasse",
-                            "Neun Sandinseln, flache Lagunen mit sichtbarem Sandgrund",
+                            "Zwölf kleine Sand- und Felsinseln, flache Lagunen mit sichtbarem Sandgrund",
                             "Drei Holzstege mit Ruderboot, Leuchtturm auf der rechten Felsinsel",
                             "Neun stilisierte Palmen, weiche Felsen, Strandgras"])
     p.finalize()

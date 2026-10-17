@@ -22,6 +22,7 @@ Zehn stilisierte Low-Poly-Planeten für „Harbor Market Tycoon“ auf Colossal 
 - `previews/NN_Name.png`: Vorschau pro Planet mit transparentem Hintergrund, 1200 × 1200 px.
 - `previews/NN_Name.jpg`: dieselbe Vorschau auf ruhigem Hintergrund.
 - `previews/00_Overview.png` und `.jpg`: gemeinsame Übersicht aller zehn Modelle.
+- `planets.json`: Paletten, Deko-Zählungen, Dreiecke und Bauflächen-Maße pro Planet.
 - `generator/`: Python-Skripte, die alles reproduzierbar erzeugen.
 
 ## Aufbau der Blender-Datei

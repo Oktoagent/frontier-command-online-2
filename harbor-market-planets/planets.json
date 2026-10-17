@@ -1,0 +1,942 @@
+[
+ {
+  "idx": 1,
+  "key": "Pelagia",
+  "title": "Pelagia",
+  "palette": [
+   {
+    "key": "water",
+    "hex": "#3CC6CB",
+    "label": "Lagunenwasser",
+    "emissive": false
+   },
+   {
+    "key": "sea_deep",
+    "hex": "#147894",
+    "label": "Tiefsee",
+    "emissive": false
+   },
+   {
+    "key": "sand",
+    "hex": "#F4E4C1",
+    "label": "Cremesand",
+    "emissive": false
+   },
+   {
+    "key": "build",
+    "hex": "#EBC596",
+    "label": "Sandstein (Baufläche)",
+    "emissive": false
+   },
+   {
+    "key": "edge",
+    "hex": "#C99868",
+    "label": "Sandsteinkante",
+    "emissive": false
+   },
+   {
+    "key": "rock",
+    "hex": "#A9A097",
+    "label": "Sanfter Fels",
+    "emissive": false
+   },
+   {
+    "key": "leaf",
+    "hex": "#4FB060",
+    "label": "Palmblatt",
+    "emissive": false
+   },
+   {
+    "key": "wood",
+    "hex": "#93613E",
+    "label": "Holzsteg",
+    "emissive": false
+   },
+   {
+    "key": "lh_red",
+    "hex": "#D8574F",
+    "label": "Leuchtturm-Rot",
+    "emissive": false
+   },
+   {
+    "key": "lamp",
+    "hex": "#FFE6A3",
+    "label": "Leuchtfeuer",
+    "emissive": true
+   }
+  ],
+  "counts": {
+   "Leuchtturm": 1,
+   "Holzsteg": 3,
+   "Ruderboot": 1,
+   "Palme": 9,
+   "Felsen": 16,
+   "Strandgras": 14
+  },
+  "build": {
+   "z": 1.035,
+   "r_min": 0.473,
+   "r_max": 0.499,
+   "area": 0.738
+  },
+  "tagline": "Der freundliche Ozeanplanet",
+  "features": [
+   "Zentrale Handelsinsel aus Sandstein über einer Sandsteinterrasse",
+   "Zwölf kleine Sand- und Felsinseln, flache Lagunen mit sichtbarem Sandgrund",
+   "Drei Holzstege mit Ruderboot, Leuchtturm auf der rechten Felsinsel",
+   "Neun stilisierte Palmen, weiche Felsen, Strandgras"
+  ],
+  "tris": 14368,
+  "objects": [
+   "Pelagia_Terraces",
+   "Pelagia_Body",
+   "Pelagia_Ocean",
+   "Pelagia_BuildArea",
+   "Pelagia_Deco_Lighthouse",
+   "Pelagia_Deco_Piers",
+   "Pelagia_Deco_Boats",
+   "Pelagia_Deco_Palms",
+   "Pelagia_Deco_Rocks",
+   "Pelagia_Deco_Grass"
+  ],
+  "glb_bytes": 999848
+ },
+ {
+  "idx": 2,
+  "key": "Coralune",
+  "title": "Coralune",
+  "palette": [
+   {
+    "key": "water",
+    "hex": "#0E8F96",
+    "label": "Petrolwasser",
+    "emissive": false
+   },
+   {
+    "key": "sea_deep",
+    "hex": "#06525E",
+    "label": "Tiefes Petrol",
+    "emissive": false
+   },
+   {
+    "key": "sand",
+    "hex": "#F0E1C3",
+    "label": "Korallensand",
+    "emissive": false
+   },
+   {
+    "key": "reef",
+    "hex": "#CDB596",
+    "label": "Riffgestein",
+    "emissive": false
+   },
+   {
+    "key": "build",
+    "hex": "#EEE8D9",
+    "label": "Heller Kalkstein (Baufläche)",
+    "emissive": false
+   },
+   {
+    "key": "edge",
+    "hex": "#D0C6AC",
+    "label": "Kalksteinkante",
+    "emissive": false
+   },
+   {
+    "key": "c_orange",
+    "hex": "#F28A36",
+    "label": "Koralle Orange",
+    "emissive": false
+   },
+   {
+    "key": "c_pink",
+    "hex": "#EF7BA3",
+    "label": "Koralle Rosa",
+    "emissive": false
+   },
+   {
+    "key": "c_red",
+    "hex": "#D9473F",
+    "label": "Koralle Warmrot",
+    "emissive": false
+   },
+   {
+    "key": "shell",
+    "hex": "#F8EADA",
+    "label": "Muschel",
+    "emissive": false
+   }
+  ],
+  "counts": {
+   "Riffbogen": 3,
+   "Niedrige Koralle": 40,
+   "Riesenmuschel": 3,
+   "Fächerkoralle": 6,
+   "Astkoralle": 14,
+   "Hirnkoralle": 30,
+   "Lagunenkoralle": 22
+  },
+  "build": {
+   "z": 1.035,
+   "r_min": 0.458,
+   "r_max": 0.505,
+   "area": 0.726
+  },
+  "tagline": "Die lebendige Korallenwelt",
+  "features": [
+   "Helle Kalkstein-Baufläche, gesäumt von 40 niedrigen Korallen",
+   "Breite Lagune mit sichtbaren Korallenflecken unter Wasser",
+   "Drei Riffbögen auf dem äußeren Riffring",
+   "Ast-, Hirn- und Fächerkorallen, drei große Muscheln am Strand"
+  ],
+  "tris": 22484,
+  "objects": [
+   "Coralune_Terraces",
+   "Coralune_Body",
+   "Coralune_Ocean",
+   "Coralune_BuildArea",
+   "Coralune_Deco_ReefArches",
+   "Coralune_Deco_CoralsLow",
+   "Coralune_Deco_Shells",
+   "Coralune_Deco_FanCorals",
+   "Coralune_Deco_BranchCorals",
+   "Coralune_Deco_RoundCorals",
+   "Coralune_Deco_LagoonCorals"
+  ],
+  "glb_bytes": 1533908
+ },
+ {
+  "idx": 3,
+  "key": "Verdantide",
+  "title": "Verdantide",
+  "palette": [
+   {
+    "key": "water",
+    "hex": "#3EB0CE",
+    "label": "Küstenwasser",
+    "emissive": false
+   },
+   {
+    "key": "sea_deep",
+    "hex": "#196987",
+    "label": "Tiefes Wasser",
+    "emissive": false
+   },
+   {
+    "key": "build",
+    "hex": "#BBDA80",
+    "label": "Lichtung (Baufläche)",
+    "emissive": false
+   },
+   {
+    "key": "edge",
+    "hex": "#CEC7B1",
+    "label": "Heller Steinrand",
+    "emissive": false
+   },
+   {
+    "key": "grass",
+    "hex": "#6CC04A",
+    "label": "Sattes Gras",
+    "emissive": false
+   },
+   {
+    "key": "stone",
+    "hex": "#B8B09D",
+    "label": "Terrassenstein",
+    "emissive": false
+   },
+   {
+    "key": "crown",
+    "hex": "#4E9E3D",
+    "label": "Baumkrone",
+    "emissive": false
+   },
+   {
+    "key": "broad",
+    "hex": "#3E9D3F",
+    "label": "Breitblatt",
+    "emissive": false
+   },
+   {
+    "key": "stream",
+    "hex": "#5FCBEA",
+    "label": "Wasserlauf",
+    "emissive": true
+   },
+   {
+    "key": "fall",
+    "hex": "#EAF8FC",
+    "label": "Wasserfall",
+    "emissive": true
+   }
+  ],
+  "counts": {
+   "Wasserfall": 6,
+   "Baum": 34,
+   "Busch": 10,
+   "Breitblattpflanze": 20,
+   "Findling": 10
+  },
+  "build": {
+   "z": 1.035,
+   "r_min": 0.476,
+   "r_max": 0.495,
+   "area": 0.737
+  },
+  "tagline": "Der grüne Inselgarten",
+  "features": [
+   "Weitläufige, ebene Lichtung auf zwei geschichteten Steinterrassen",
+   "Drei Wasserläufe mit je zwei kleinen Wasserfällen bis zur Küste",
+   "Kompakte Baumkronen auf Hügeln hinten und seitlich",
+   "Breitblattpflanzen und niedrige Büsche an der Vorderseite"
+  ],
+  "tris": 18818,
+  "objects": [
+   "Verdantide_Terraces",
+   "Verdantide_Body",
+   "Verdantide_Ocean",
+   "Verdantide_BuildArea",
+   "Verdantide_Deco_Waterfalls",
+   "Verdantide_Deco_Rocks",
+   "Verdantide_Deco_Trees",
+   "Verdantide_Deco_BroadLeaves"
+  ],
+  "glb_bytes": 1310644
+ },
+ {
+  "idx": 4,
+  "key": "Dunewake",
+  "title": "Dunewake",
+  "palette": [
+   {
+    "key": "water",
+    "hex": "#2EB6B2",
+    "label": "Türkisküste",
+    "emissive": false
+   },
+   {
+    "key": "sea_deep",
+    "hex": "#16707F",
+    "label": "Tiefes Meer",
+    "emissive": false
+   },
+   {
+    "key": "dune",
+    "hex": "#ECBA5C",
+    "label": "Goldene Düne",
+    "emissive": false
+   },
+   {
+    "key": "wet",
+    "hex": "#F2DEAF",
+    "label": "Ausgewaschene Küste",
+    "emissive": false
+   },
+   {
+    "key": "terra",
+    "hex": "#C6643B",
+    "label": "Terrakottafels",
+    "emissive": false
+   },
+   {
+    "key": "build",
+    "hex": "#EDCD97",
+    "label": "Sandsteinplateau (Baufläche)",
+    "emissive": false
+   },
+   {
+    "key": "edge",
+    "hex": "#C9975C",
+    "label": "Sandsteinkante",
+    "emissive": false
+   },
+   {
+    "key": "oasis",
+    "hex": "#3FD5C6",
+    "label": "Oase",
+    "emissive": false
+   }
+  ],
+  "counts": {
+   "Oase": 1,
+   "Oasenpalme": 4,
+   "Felsbogen": 2,
+   "Felssäule": 6,
+   "Terrakottafels": 14
+  },
+  "build": {
+   "z": 1.04,
+   "r_min": 0.465,
+   "r_max": 0.502,
+   "area": 0.718
+  },
+  "tagline": "Die maritime Wüstenwelt",
+  "features": [
+   "Flaches Sandsteinplateau mit geschichteten Felswänden",
+   "Windgeformte Dünenkämme, ausgewaschene helle Küsten",
+   "Zwei Felsbögen und Felssäulen aus Terrakotta",
+   "Türkisfarbene Oase mit vier Palmen"
+  ],
+  "tris": 12242,
+  "objects": [
+   "Dunewake_Terraces",
+   "Dunewake_Body",
+   "Dunewake_Ocean",
+   "Dunewake_BuildArea",
+   "Dunewake_Deco_Oasis",
+   "Dunewake_Deco_Palms",
+   "Dunewake_Deco_RockArches",
+   "Dunewake_Deco_Hoodoos",
+   "Dunewake_Deco_Rocks"
+  ],
+  "glb_bytes": 836448
+ },
+ {
+  "idx": 5,
+  "key": "Frostharbor",
+  "title": "Frostharbor",
+  "palette": [
+   {
+    "key": "water",
+    "hex": "#1B4865",
+    "label": "Dunkle Meeresbucht",
+    "emissive": false
+   },
+   {
+    "key": "sea_deep",
+    "hex": "#0C2236",
+    "label": "Tiefsee",
+    "emissive": false
+   },
+   {
+    "key": "snow",
+    "hex": "#F3F7FB",
+    "label": "Schnee",
+    "emissive": false
+   },
+   {
+    "key": "ice",
+    "hex": "#C7E3F2",
+    "label": "Eisfläche",
+    "emissive": false
+   },
+   {
+    "key": "glacier",
+    "hex": "#A2CFEA",
+    "label": "Gletscher",
+    "emissive": false
+   },
+   {
+    "key": "turq",
+    "hex": "#3FD6D9",
+    "label": "Türkisakzent",
+    "emissive": true
+   },
+   {
+    "key": "build",
+    "hex": "#9EA6AF",
+    "label": "Steinplateau (Baufläche)",
+    "emissive": false
+   },
+   {
+    "key": "edge",
+    "hex": "#747D88",
+    "label": "Steinkante",
+    "emissive": false
+   },
+   {
+    "key": "stone2",
+    "hex": "#545E6A",
+    "label": "Dunkler Fels",
+    "emissive": false
+   }
+  ],
+  "counts": {
+   "Gletscher": 6,
+   "Eisberg": 12,
+   "Schmelzwasser-Pool": 4,
+   "Schneefels": 10
+  },
+  "build": {
+   "z": 1.04,
+   "r_min": 0.472,
+   "r_max": 0.494,
+   "area": 0.734
+  },
+  "tagline": "Der gefrorene Hafen",
+  "features": [
+   "Solides graues Steinplateau unter einer verschneiten Terrasse",
+   "Fünf dunkle Meeresbuchten schneiden in die Eisküste",
+   "Facettierte Gletscherwände hinten und seitlich, Eisberge im Wasser",
+   "Wenige türkisfarbene Akzente: Schmelzwasser und Eiskristalle"
+  ],
+  "tris": 11894,
+  "objects": [
+   "Frostharbor_Terraces",
+   "Frostharbor_Body",
+   "Frostharbor_Ocean",
+   "Frostharbor_BuildArea",
+   "Frostharbor_Deco_Glaciers",
+   "Frostharbor_Deco_IceAccents",
+   "Frostharbor_Deco_Icebergs",
+   "Frostharbor_Deco_Rocks"
+  ],
+  "glb_bytes": 816948
+ },
+ {
+  "idx": 6,
+  "key": "EmberShoal",
+  "title": "Ember Shoal",
+  "palette": [
+   {
+    "key": "water",
+    "hex": "#1E5462",
+    "label": "Dunkles Meer",
+    "emissive": false
+   },
+   {
+    "key": "sea_deep",
+    "hex": "#0F2730",
+    "label": "Tiefsee",
+    "emissive": false
+   },
+   {
+    "key": "basalt",
+    "hex": "#383438",
+    "label": "Basalt",
+    "emissive": false
+   },
+   {
+    "key": "ash",
+    "hex": "#615956",
+    "label": "Asche",
+    "emissive": false
+   },
+   {
+    "key": "rust",
+    "hex": "#9E4A2C",
+    "label": "Rostrote Klippe",
+    "emissive": false
+   },
+   {
+    "key": "lava",
+    "hex": "#FF7A1C",
+    "label": "Lava",
+    "emissive": true
+   },
+   {
+    "key": "build",
+    "hex": "#615A5B",
+    "label": "Ruhiger Basalt (Baufläche)",
+    "emissive": false
+   },
+   {
+    "key": "edge",
+    "hex": "#857A74",
+    "label": "Aschekante",
+    "emissive": false
+   }
+  ],
+  "counts": {
+   "Lavaspalte": 6,
+   "Basaltsäulen": 5,
+   "Felsspitze": 16
+  },
+  "build": {
+   "z": 1.04,
+   "r_min": 0.474,
+   "r_max": 0.497,
+   "area": 0.74
+  },
+  "tagline": "Die Vulkaninsel",
+  "features": [
+   "Großzügige, ruhige Basaltfläche mit heller Aschekante",
+   "Vulkan mit Lavasee auf der hinteren rechten Seite",
+   "Sparsame Lavaspalten, rostrote Klippen an Terrasse und Küste",
+   "Basaltsäulen und scharfe Felsspitzen weit außerhalb des Bauplatzes"
+  ],
+  "tris": 11330,
+  "objects": [
+   "EmberShoal_Terraces",
+   "EmberShoal_Body",
+   "EmberShoal_Ocean",
+   "EmberShoal_BuildArea",
+   "EmberShoal_Deco_LavaCracks",
+   "EmberShoal_Deco_BasaltColumns",
+   "EmberShoal_Deco_SharpRocks"
+  ],
+  "glb_bytes": 769428
+ },
+ {
+  "idx": 7,
+  "key": "Prismara",
+  "title": "Prismara",
+  "palette": [
+   {
+    "key": "water",
+    "hex": "#4253C4",
+    "label": "Blauviolettes Meer",
+    "emissive": false
+   },
+   {
+    "key": "sea_deep",
+    "hex": "#24287A",
+    "label": "Tiefsee",
+    "emissive": false
+   },
+   {
+    "key": "violet",
+    "hex": "#6E4DAA",
+    "label": "Violette Küste",
+    "emissive": false
+   },
+   {
+    "key": "blue",
+    "hex": "#4259BC",
+    "label": "Blaue Küste",
+    "emissive": false
+   },
+   {
+    "key": "crystal",
+    "hex": "#3FE6D6",
+    "label": "Türkiskristall",
+    "emissive": true
+   },
+   {
+    "key": "crystal2",
+    "hex": "#A8F8EF",
+    "label": "Kristallspitze",
+    "emissive": true
+   },
+   {
+    "key": "build",
+    "hex": "#EAE5F5",
+    "label": "Mineralfläche (Baufläche)",
+    "emissive": false
+   },
+   {
+    "key": "edge",
+    "hex": "#BFB3DD",
+    "label": "Mineralkante",
+    "emissive": false
+   }
+  ],
+  "counts": {
+   "Kleiner Kristall": 30,
+   "Großer Kristall": 5,
+   "Mittlerer Kristall": 10,
+   "Lagunenkristall": 10
+  },
+  "build": {
+   "z": 1.035,
+   "r_min": 0.468,
+   "r_max": 0.504,
+   "area": 0.729
+  },
+  "tagline": "Der Kristallozean",
+  "features": [
+   "Helle, flache Mineralfläche mit leicht facettiertem Umriss",
+   "Rahmen aus 30 kleinen Türkiskristallen rund um den Bauplatz",
+   "Fünf große Kristallgruppen hinten und seitlich",
+   "Zweifarbige Küsten in Violett und Blau, leuchtende Kristalle in der Lagune"
+  ],
+  "tris": 14476,
+  "objects": [
+   "Prismara_Terraces",
+   "Prismara_Body",
+   "Prismara_Ocean",
+   "Prismara_BuildArea",
+   "Prismara_Deco_CrystalsSmall",
+   "Prismara_Deco_CrystalsLarge",
+   "Prismara_Deco_CrystalsMedium",
+   "Prismara_Deco_CrystalsLagoon"
+  ],
+  "glb_bytes": 959232
+ },
+ {
+  "idx": 8,
+  "key": "Sporehaven",
+  "title": "Sporehaven",
+  "palette": [
+   {
+    "key": "water",
+    "hex": "#167884",
+    "label": "Petrolmeer",
+    "emissive": false
+   },
+   {
+    "key": "sea_deep",
+    "hex": "#0E3D48",
+    "label": "Tiefsee",
+    "emissive": false
+   },
+   {
+    "key": "moss",
+    "hex": "#246A6F",
+    "label": "Petrolboden",
+    "emissive": false
+   },
+   {
+    "key": "build",
+    "hex": "#80B6A9",
+    "label": "Moos-Lichtung (Baufläche)",
+    "emissive": false
+   },
+   {
+    "key": "edge",
+    "hex": "#ABD5C8",
+    "label": "Heller Moosrand",
+    "emissive": false
+   },
+   {
+    "key": "root",
+    "hex": "#604B46",
+    "label": "Wurzeln",
+    "emissive": false
+   },
+   {
+    "key": "stem",
+    "hex": "#EBE0CC",
+    "label": "Pilzstiel",
+    "emissive": false
+   },
+   {
+    "key": "cap_v",
+    "hex": "#9065CD",
+    "label": "Kappe Violett",
+    "emissive": false
+   },
+   {
+    "key": "cap_r",
+    "hex": "#E3728F",
+    "label": "Kappe Rosé",
+    "emissive": false
+   },
+   {
+    "key": "cap_a",
+    "hex": "#E8A45A",
+    "label": "Kappe Bernstein",
+    "emissive": false
+   },
+   {
+    "key": "glow",
+    "hex": "#58F5D3",
+    "label": "Leuchtpunkte",
+    "emissive": true
+   }
+  ],
+  "counts": {
+   "Wurzel": 14,
+   "Mittlerer Pilz": 57,
+   "Großer Pilz": 7,
+   "Kleiner Pilz": 40,
+   "Leuchtpunkt": 48
+  },
+  "build": {
+   "z": 1.035,
+   "r_min": 0.473,
+   "r_max": 0.495,
+   "area": 0.737
+  },
+  "tagline": "Die leuchtende Pilzwelt",
+  "features": [
+   "Offene, helle Moos-Lichtung als Baufläche",
+   "Wurzelbögen ausschließlich rund um die Lichtung",
+   "Pilze in drei Formen mit sichtbaren Lamellen, groß hinten, klein vorne",
+   "Blaugrüne Leuchtpunkte auf Kappen und Boden, kleine Petrolmeere"
+  ],
+  "tris": 43990,
+  "objects": [
+   "Sporehaven_Terraces",
+   "Sporehaven_Body",
+   "Sporehaven_Ocean",
+   "Sporehaven_BuildArea",
+   "Sporehaven_Deco_Roots",
+   "Sporehaven_Deco_MushroomsLarge",
+   "Sporehaven_Deco_MushroomsMedium",
+   "Sporehaven_Deco_MushroomsSmall",
+   "Sporehaven_Deco_GlowDots"
+  ],
+  "glb_bytes": 2846200
+ },
+ {
+  "idx": 9,
+  "key": "Ringhaven",
+  "title": "Ringhaven",
+  "palette": [
+   {
+    "key": "water",
+    "hex": "#2D6DA3",
+    "label": "Kleines Meer",
+    "emissive": false
+   },
+   {
+    "key": "sea_deep",
+    "hex": "#1B3854",
+    "label": "Tiefes Wasser",
+    "emissive": false
+   },
+   {
+    "key": "rock",
+    "hex": "#72869B",
+    "label": "Graublauer Fels",
+    "emissive": false
+   },
+   {
+    "key": "build",
+    "hex": "#B1BECB",
+    "label": "Felsplateau (Baufläche)",
+    "emissive": false
+   },
+   {
+    "key": "edge",
+    "hex": "#C8D0D8",
+    "label": "Metallkante",
+    "emissive": false
+   },
+   {
+    "key": "metal",
+    "hex": "#B9C3CC",
+    "label": "Dock-Metall",
+    "emissive": false
+   },
+   {
+    "key": "light",
+    "hex": "#FFD47E",
+    "label": "Signallicht",
+    "emissive": true
+   },
+   {
+    "key": "ring1",
+    "hex": "#E2C99C",
+    "label": "Ring Sand",
+    "emissive": false
+   },
+   {
+    "key": "ring2",
+    "hex": "#B88E62",
+    "label": "Ring Bronze",
+    "emissive": false
+   }
+  ],
+  "counts": {
+   "Planetenring": 1,
+   "Dock": 2,
+   "Dockkran": 1,
+   "Signalmast": 3,
+   "Felsnadel": 7,
+   "Felsbrocken": 14
+  },
+  "build": {
+   "z": 1.04,
+   "r_min": 0.475,
+   "r_max": 0.496,
+   "area": 0.739
+  },
+  "tagline": "Der kosmische Handelshafen",
+  "features": [
+   "Großes, helles Felsplateau mit dezenter Metallkante",
+   "Schräger Planetenring in Sand- und Bronzetönen, vorne abgesenkt",
+   "Zwei Metalldocks mit Signallichtern und einem kleinen Kran",
+   "Kleine Meere, Felsnadeln und Signalmasten auf den Hügeln"
+  ],
+  "tris": 15592,
+  "objects": [
+   "Ringhaven_Terraces",
+   "Ringhaven_Body",
+   "Ringhaven_Ocean",
+   "Ringhaven_BuildArea",
+   "Ringhaven_Deco_Ring",
+   "Ringhaven_Deco_Docks",
+   "Ringhaven_Deco_Beacons",
+   "Ringhaven_Deco_RockSpires",
+   "Ringhaven_Deco_Rocks"
+  ],
+  "glb_bytes": 1019724
+ },
+ {
+  "idx": 10,
+  "key": "AbyssalCrown",
+  "title": "Abyssal Crown",
+  "palette": [
+   {
+    "key": "water",
+    "hex": "#0E1430",
+    "label": "Fast schwarzes Wasser",
+    "emissive": false
+   },
+   {
+    "key": "rock",
+    "hex": "#57407F",
+    "label": "Violetter Fels",
+    "emissive": false
+   },
+   {
+    "key": "tent",
+    "hex": "#6D4C99",
+    "label": "Tentakelbogen",
+    "emissive": false
+   },
+   {
+    "key": "build",
+    "hex": "#3E3858",
+    "label": "Dunkler Boden (Baufläche)",
+    "emissive": false
+   },
+   {
+    "key": "pearl",
+    "hex": "#EFE9F6",
+    "label": "Perlmuttkante",
+    "emissive": false
+   },
+   {
+    "key": "glow",
+    "hex": "#4CF2E2",
+    "label": "Biolumineszenz Cyan",
+    "emissive": true
+   },
+   {
+    "key": "glow2",
+    "hex": "#C77BFF",
+    "label": "Biolumineszenz Violett",
+    "emissive": true
+   }
+  ],
+  "counts": {
+   "Tentakelbogen": 5,
+   "Riesenmuschel mit Perle": 1,
+   "Perle": 36,
+   "Felsnadel": 7,
+   "Fels": 12,
+   "Leuchtpunkt": 56
+  },
+  "build": {
+   "z": 1.035,
+   "r_min": 0.468,
+   "r_max": 0.493,
+   "area": 0.731
+  },
+  "tagline": "Die geheimnisvolle Tiefseewelt",
+  "features": [
+   "Dunkle, gut lesbare Baufläche mit hellen Perlmuttkanten",
+   "Fünf geschwungene Felsbögen mit Tentakel-Anmutung",
+   "Fast schwarzes Wasser, violette Felsküsten",
+   "Zurückhaltende Biolumineszenz in Cyan und Violett, Perlen am Terrassenrand"
+  ],
+  "tris": 14687,
+  "objects": [
+   "AbyssalCrown_Terraces",
+   "AbyssalCrown_Body",
+   "AbyssalCrown_Ocean",
+   "AbyssalCrown_BuildArea",
+   "AbyssalCrown_Deco_TentacleArches",
+   "AbyssalCrown_Deco_Clams",
+   "AbyssalCrown_Deco_PearlBeads",
+   "AbyssalCrown_Deco_Spires",
+   "AbyssalCrown_Deco_Rocks",
+   "AbyssalCrown_Deco_Bioluminescence"
+  ],
+  "glb_bytes": 1028552
+ }
+]
