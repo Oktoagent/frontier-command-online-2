@@ -469,7 +469,7 @@ class Planet:
             rings.append(ring)
 
         def tone(ids, k):
-            if k < 2:
+            if k < 9:   # one calm tone: thin fan triangles turn any tone noise into spikes
                 return top[0]
             cc = sum((mb.v[i] for i in ids), Vector()) / len(ids)
             return top[1] if fbm(cc, tone_scale, 2, tone_seed) > tone_thresh else top[0]

@@ -42,7 +42,7 @@ Zehn stilisierte Low-Poly-Planeten für „Harbor Market Tycoon“ auf Colossal 
 ## Maßstab und Baufläche
 
 - **Maßstab:** 1 Blender-Einheit entspricht 1 m. Der Meeresspiegel liegt bei Radius 1,0.
-- **Baufläche:** Sie ist exakt planar bei z = 1,035 bis 1,04, bei einem Radius von etwa 0,46 bis 0,55. Das ergibt rund 0,76 bis 0,81 m² Fläche. Auf der Baufläche liegt keine Deko.
+- **Baufläche:** Sie ist exakt planar bei z = 1,035 bis 1,04, bei einem Radius von etwa 0,46 bis 0,50. Das ergibt rund 0,72 bis 0,74 m² Fläche. Auf der Baufläche liegt keine Deko.
 - **Daten im Objekt:** Das Objekt `<Planet>_BuildArea` trägt diese Werte als Custom Properties: `build_surface_z`, `build_radius_min`, `build_radius_max` und `build_area_m2`. Im GLB stehen sie als `extras` am Knoten.
 - **Ausrichtung im GLB:** Die Blender-Achse +Z wird im GLB zu +Y. Die Vorderseite (Blender −Y, Kameraseite) zeigt im GLB nach +Z.
 
