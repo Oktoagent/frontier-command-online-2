@@ -1,0 +1,1162 @@
+[
+ {
+  "datei": "figuren/01_Pelagia/pel-k1.glb",
+  "name": "pel-k1",
+  "teile": 16,
+  "dreiecke": 2566,
+  "hoehe_F": 0.99,
+  "kb": 51
+ },
+ {
+  "datei": "figuren/01_Pelagia/pel-k2.glb",
+  "name": "pel-k2",
+  "teile": 18,
+  "dreiecke": 2598,
+  "hoehe_F": 1.11,
+  "kb": 51
+ },
+ {
+  "datei": "figuren/01_Pelagia/pel-k3.glb",
+  "name": "pel-k3",
+  "teile": 18,
+  "dreiecke": 2176,
+  "hoehe_F": 0.89,
+  "kb": 41
+ },
+ {
+  "datei": "figuren/01_Pelagia/pel-n1.glb",
+  "name": "pel-n1",
+  "teile": 20,
+  "dreiecke": 2492,
+  "hoehe_F": 1.02,
+  "kb": 50
+ },
+ {
+  "datei": "figuren/01_Pelagia/pel-n2.glb",
+  "name": "pel-n2",
+  "teile": 20,
+  "dreiecke": 2560,
+  "hoehe_F": 1.01,
+  "kb": 48
+ },
+ {
+  "datei": "schiffe/01_Pelagia/pel-p_gelandet.glb",
+  "name": "pel-p",
+  "teile": 17,
+  "dreiecke": 2448,
+  "hoehe_F": 3.19,
+  "kb": 49
+ },
+ {
+  "datei": "schiffe/01_Pelagia/pel-p_offen.glb",
+  "name": "pel-p_offen",
+  "teile": 18,
+  "dreiecke": 2616,
+  "hoehe_F": 3.2,
+  "kb": 53
+ },
+ {
+  "datei": "schiffe/01_Pelagia/pel-f_gelandet.glb",
+  "name": "pel-f",
+  "teile": 21,
+  "dreiecke": 2672,
+  "hoehe_F": 2.94,
+  "kb": 59
+ },
+ {
+  "datei": "schiffe/01_Pelagia/pel-f_offen.glb",
+  "name": "pel-f_offen",
+  "teile": 23,
+  "dreiecke": 2784,
+  "hoehe_F": 2.96,
+  "kb": 62
+ },
+ {
+  "datei": "figuren/02_Coralune/cor-k1.glb",
+  "name": "cor-k1",
+  "teile": 17,
+  "dreiecke": 2190,
+  "hoehe_F": 1.02,
+  "kb": 43
+ },
+ {
+  "datei": "figuren/02_Coralune/cor-k2.glb",
+  "name": "cor-k2",
+  "teile": 17,
+  "dreiecke": 2266,
+  "hoehe_F": 1.04,
+  "kb": 47
+ },
+ {
+  "datei": "figuren/02_Coralune/cor-k3.glb",
+  "name": "cor-k3",
+  "teile": 18,
+  "dreiecke": 2442,
+  "hoehe_F": 0.92,
+  "kb": 47
+ },
+ {
+  "datei": "figuren/02_Coralune/cor-n1.glb",
+  "name": "cor-n1",
+  "teile": 18,
+  "dreiecke": 2262,
+  "hoehe_F": 1,
+  "kb": 46
+ },
+ {
+  "datei": "figuren/02_Coralune/cor-n2.glb",
+  "name": "cor-n2",
+  "teile": 17,
+  "dreiecke": 2200,
+  "hoehe_F": 0.87,
+  "kb": 44
+ },
+ {
+  "datei": "schiffe/02_Coralune/cor-p_gelandet.glb",
+  "name": "cor-p",
+  "teile": 13,
+  "dreiecke": 1926,
+  "hoehe_F": 2.56,
+  "kb": 42
+ },
+ {
+  "datei": "schiffe/02_Coralune/cor-p_offen.glb",
+  "name": "cor-p_offen",
+  "teile": 14,
+  "dreiecke": 2094,
+  "hoehe_F": 2.56,
+  "kb": 45
+ },
+ {
+  "datei": "schiffe/02_Coralune/cor-f_gelandet.glb",
+  "name": "cor-f",
+  "teile": 24,
+  "dreiecke": 3460,
+  "hoehe_F": 2.61,
+  "kb": 70
+ },
+ {
+  "datei": "schiffe/02_Coralune/cor-f_offen.glb",
+  "name": "cor-f_offen",
+  "teile": 26,
+  "dreiecke": 3572,
+  "hoehe_F": 2.61,
+  "kb": 74
+ },
+ {
+  "datei": "figuren/03_Verdantide/ver-k1.glb",
+  "name": "ver-k1",
+  "teile": 18,
+  "dreiecke": 2746,
+  "hoehe_F": 1.01,
+  "kb": 53
+ },
+ {
+  "datei": "figuren/03_Verdantide/ver-k2.glb",
+  "name": "ver-k2",
+  "teile": 18,
+  "dreiecke": 2196,
+  "hoehe_F": 0.93,
+  "kb": 45
+ },
+ {
+  "datei": "figuren/03_Verdantide/ver-k3.glb",
+  "name": "ver-k3",
+  "teile": 18,
+  "dreiecke": 2368,
+  "hoehe_F": 0.81,
+  "kb": 46
+ },
+ {
+  "datei": "figuren/03_Verdantide/ver-n1.glb",
+  "name": "ver-n1",
+  "teile": 20,
+  "dreiecke": 2854,
+  "hoehe_F": 1.03,
+  "kb": 55
+ },
+ {
+  "datei": "figuren/03_Verdantide/ver-n2.glb",
+  "name": "ver-n2",
+  "teile": 19,
+  "dreiecke": 2560,
+  "hoehe_F": 0.96,
+  "kb": 49
+ },
+ {
+  "datei": "schiffe/03_Verdantide/ver-p_gelandet.glb",
+  "name": "ver-p",
+  "teile": 15,
+  "dreiecke": 2544,
+  "hoehe_F": 2.79,
+  "kb": 51
+ },
+ {
+  "datei": "schiffe/03_Verdantide/ver-p_offen.glb",
+  "name": "ver-p_offen",
+  "teile": 16,
+  "dreiecke": 2712,
+  "hoehe_F": 2.8,
+  "kb": 55
+ },
+ {
+  "datei": "schiffe/03_Verdantide/ver-f_gelandet.glb",
+  "name": "ver-f",
+  "teile": 19,
+  "dreiecke": 2596,
+  "hoehe_F": 2.9,
+  "kb": 58
+ },
+ {
+  "datei": "schiffe/03_Verdantide/ver-f_offen.glb",
+  "name": "ver-f_offen",
+  "teile": 21,
+  "dreiecke": 2708,
+  "hoehe_F": 2.91,
+  "kb": 62
+ },
+ {
+  "datei": "figuren/04_Dunewake/dun-k1.glb",
+  "name": "dun-k1",
+  "teile": 20,
+  "dreiecke": 2698,
+  "hoehe_F": 1.12,
+  "kb": 52
+ },
+ {
+  "datei": "figuren/04_Dunewake/dun-k2.glb",
+  "name": "dun-k2",
+  "teile": 20,
+  "dreiecke": 2470,
+  "hoehe_F": 0.93,
+  "kb": 50
+ },
+ {
+  "datei": "figuren/04_Dunewake/dun-k3.glb",
+  "name": "dun-k3",
+  "teile": 19,
+  "dreiecke": 2320,
+  "hoehe_F": 0.92,
+  "kb": 45
+ },
+ {
+  "datei": "figuren/04_Dunewake/dun-n1.glb",
+  "name": "dun-n1",
+  "teile": 20,
+  "dreiecke": 2676,
+  "hoehe_F": 1.04,
+  "kb": 53
+ },
+ {
+  "datei": "figuren/04_Dunewake/dun-n2.glb",
+  "name": "dun-n2",
+  "teile": 18,
+  "dreiecke": 2248,
+  "hoehe_F": 0.97,
+  "kb": 44
+ },
+ {
+  "datei": "schiffe/04_Dunewake/dun-p_gelandet.glb",
+  "name": "dun-p",
+  "teile": 14,
+  "dreiecke": 1944,
+  "hoehe_F": 2.39,
+  "kb": 39
+ },
+ {
+  "datei": "schiffe/04_Dunewake/dun-p_offen.glb",
+  "name": "dun-p_offen",
+  "teile": 15,
+  "dreiecke": 2112,
+  "hoehe_F": 2.4,
+  "kb": 42
+ },
+ {
+  "datei": "schiffe/04_Dunewake/dun-f_gelandet.glb",
+  "name": "dun-f",
+  "teile": 19,
+  "dreiecke": 2112,
+  "hoehe_F": 2.57,
+  "kb": 55
+ },
+ {
+  "datei": "schiffe/04_Dunewake/dun-f_offen.glb",
+  "name": "dun-f_offen",
+  "teile": 21,
+  "dreiecke": 2224,
+  "hoehe_F": 2.58,
+  "kb": 59
+ },
+ {
+  "datei": "figuren/05_Frostharbor/fro-k1.glb",
+  "name": "fro-k1",
+  "teile": 19,
+  "dreiecke": 2972,
+  "hoehe_F": 1,
+  "kb": 55
+ },
+ {
+  "datei": "figuren/05_Frostharbor/fro-k2.glb",
+  "name": "fro-k2",
+  "teile": 20,
+  "dreiecke": 2704,
+  "hoehe_F": 1.03,
+  "kb": 52
+ },
+ {
+  "datei": "figuren/05_Frostharbor/fro-k3.glb",
+  "name": "fro-k3",
+  "teile": 18,
+  "dreiecke": 2468,
+  "hoehe_F": 0.91,
+  "kb": 49
+ },
+ {
+  "datei": "figuren/05_Frostharbor/fro-n1.glb",
+  "name": "fro-n1",
+  "teile": 19,
+  "dreiecke": 2624,
+  "hoehe_F": 1.06,
+  "kb": 51
+ },
+ {
+  "datei": "figuren/05_Frostharbor/fro-n2.glb",
+  "name": "fro-n2",
+  "teile": 17,
+  "dreiecke": 2532,
+  "hoehe_F": 0.89,
+  "kb": 50
+ },
+ {
+  "datei": "schiffe/05_Frostharbor/fro-p_gelandet.glb",
+  "name": "fro-p",
+  "teile": 15,
+  "dreiecke": 2472,
+  "hoehe_F": 3.31,
+  "kb": 52
+ },
+ {
+  "datei": "schiffe/05_Frostharbor/fro-p_offen.glb",
+  "name": "fro-p_offen",
+  "teile": 16,
+  "dreiecke": 2684,
+  "hoehe_F": 3.32,
+  "kb": 56
+ },
+ {
+  "datei": "schiffe/05_Frostharbor/fro-f_gelandet.glb",
+  "name": "fro-f",
+  "teile": 15,
+  "dreiecke": 2216,
+  "hoehe_F": 3.12,
+  "kb": 49
+ },
+ {
+  "datei": "schiffe/05_Frostharbor/fro-f_offen.glb",
+  "name": "fro-f_offen",
+  "teile": 17,
+  "dreiecke": 2328,
+  "hoehe_F": 3.13,
+  "kb": 53
+ },
+ {
+  "datei": "figuren/06_EmberShoal/emb-k1.glb",
+  "name": "emb-k1",
+  "teile": 19,
+  "dreiecke": 2770,
+  "hoehe_F": 0.98,
+  "kb": 55
+ },
+ {
+  "datei": "figuren/06_EmberShoal/emb-k2.glb",
+  "name": "emb-k2",
+  "teile": 18,
+  "dreiecke": 2582,
+  "hoehe_F": 1.03,
+  "kb": 49
+ },
+ {
+  "datei": "figuren/06_EmberShoal/emb-k3.glb",
+  "name": "emb-k3",
+  "teile": 16,
+  "dreiecke": 1218,
+  "hoehe_F": 1.02,
+  "kb": 28
+ },
+ {
+  "datei": "figuren/06_EmberShoal/emb-n1.glb",
+  "name": "emb-n1",
+  "teile": 17,
+  "dreiecke": 2328,
+  "hoehe_F": 1.1,
+  "kb": 47
+ },
+ {
+  "datei": "figuren/06_EmberShoal/emb-n2.glb",
+  "name": "emb-n2",
+  "teile": 17,
+  "dreiecke": 2314,
+  "hoehe_F": 0.88,
+  "kb": 47
+ },
+ {
+  "datei": "schiffe/06_EmberShoal/emb-p_gelandet.glb",
+  "name": "emb-p",
+  "teile": 14,
+  "dreiecke": 1912,
+  "hoehe_F": 2.99,
+  "kb": 42
+ },
+ {
+  "datei": "schiffe/06_EmberShoal/emb-p_offen.glb",
+  "name": "emb-p_offen",
+  "teile": 15,
+  "dreiecke": 2080,
+  "hoehe_F": 3,
+  "kb": 46
+ },
+ {
+  "datei": "schiffe/06_EmberShoal/emb-f_gelandet.glb",
+  "name": "emb-f",
+  "teile": 13,
+  "dreiecke": 2320,
+  "hoehe_F": 2.69,
+  "kb": 48
+ },
+ {
+  "datei": "schiffe/06_EmberShoal/emb-f_offen.glb",
+  "name": "emb-f_offen",
+  "teile": 15,
+  "dreiecke": 2432,
+  "hoehe_F": 2.71,
+  "kb": 52
+ },
+ {
+  "datei": "figuren/07_Prismara/pri-k1.glb",
+  "name": "pri-k1",
+  "teile": 19,
+  "dreiecke": 2544,
+  "hoehe_F": 1.03,
+  "kb": 48
+ },
+ {
+  "datei": "figuren/07_Prismara/pri-k2.glb",
+  "name": "pri-k2",
+  "teile": 19,
+  "dreiecke": 2314,
+  "hoehe_F": 1.13,
+  "kb": 45
+ },
+ {
+  "datei": "figuren/07_Prismara/pri-k3.glb",
+  "name": "pri-k3",
+  "teile": 17,
+  "dreiecke": 1962,
+  "hoehe_F": 1.11,
+  "kb": 39
+ },
+ {
+  "datei": "figuren/07_Prismara/pri-n1.glb",
+  "name": "pri-n1",
+  "teile": 19,
+  "dreiecke": 2596,
+  "hoehe_F": 0.96,
+  "kb": 49
+ },
+ {
+  "datei": "figuren/07_Prismara/pri-n2.glb",
+  "name": "pri-n2",
+  "teile": 17,
+  "dreiecke": 2346,
+  "hoehe_F": 1.05,
+  "kb": 48
+ },
+ {
+  "datei": "schiffe/07_Prismara/pri-p_gelandet.glb",
+  "name": "pri-p",
+  "teile": 13,
+  "dreiecke": 1466,
+  "hoehe_F": 2.7,
+  "kb": 35
+ },
+ {
+  "datei": "schiffe/07_Prismara/pri-p_offen.glb",
+  "name": "pri-p_offen",
+  "teile": 14,
+  "dreiecke": 1634,
+  "hoehe_F": 2.71,
+  "kb": 38
+ },
+ {
+  "datei": "schiffe/07_Prismara/pri-f_gelandet.glb",
+  "name": "pri-f",
+  "teile": 14,
+  "dreiecke": 1318,
+  "hoehe_F": 3.45,
+  "kb": 38
+ },
+ {
+  "datei": "schiffe/07_Prismara/pri-f_offen.glb",
+  "name": "pri-f_offen",
+  "teile": 16,
+  "dreiecke": 1430,
+  "hoehe_F": 3.46,
+  "kb": 42
+ },
+ {
+  "datei": "figuren/08_Sporehaven/spo-k1.glb",
+  "name": "spo-k1",
+  "teile": 18,
+  "dreiecke": 2470,
+  "hoehe_F": 0.98,
+  "kb": 48
+ },
+ {
+  "datei": "figuren/08_Sporehaven/spo-k2.glb",
+  "name": "spo-k2",
+  "teile": 15,
+  "dreiecke": 1892,
+  "hoehe_F": 0.65,
+  "kb": 39
+ },
+ {
+  "datei": "figuren/08_Sporehaven/spo-k3.glb",
+  "name": "spo-k3",
+  "teile": 18,
+  "dreiecke": 2504,
+  "hoehe_F": 1.1,
+  "kb": 48
+ },
+ {
+  "datei": "figuren/08_Sporehaven/spo-n1.glb",
+  "name": "spo-n1",
+  "teile": 18,
+  "dreiecke": 2666,
+  "hoehe_F": 1.02,
+  "kb": 51
+ },
+ {
+  "datei": "figuren/08_Sporehaven/spo-n2.glb",
+  "name": "spo-n2",
+  "teile": 20,
+  "dreiecke": 2740,
+  "hoehe_F": 0.93,
+  "kb": 53
+ },
+ {
+  "datei": "schiffe/08_Sporehaven/spo-p_gelandet.glb",
+  "name": "spo-p",
+  "teile": 16,
+  "dreiecke": 2062,
+  "hoehe_F": 3,
+  "kb": 45
+ },
+ {
+  "datei": "schiffe/08_Sporehaven/spo-p_offen.glb",
+  "name": "spo-p_offen",
+  "teile": 17,
+  "dreiecke": 2230,
+  "hoehe_F": 3.01,
+  "kb": 48
+ },
+ {
+  "datei": "schiffe/08_Sporehaven/spo-f_gelandet.glb",
+  "name": "spo-f",
+  "teile": 18,
+  "dreiecke": 2756,
+  "hoehe_F": 3.15,
+  "kb": 56
+ },
+ {
+  "datei": "schiffe/08_Sporehaven/spo-f_offen.glb",
+  "name": "spo-f_offen",
+  "teile": 20,
+  "dreiecke": 2868,
+  "hoehe_F": 3.15,
+  "kb": 60
+ },
+ {
+  "datei": "figuren/09_Ringhaven/rin-k1.glb",
+  "name": "rin-k1",
+  "teile": 18,
+  "dreiecke": 2268,
+  "hoehe_F": 1,
+  "kb": 43
+ },
+ {
+  "datei": "figuren/09_Ringhaven/rin-k2.glb",
+  "name": "rin-k2",
+  "teile": 18,
+  "dreiecke": 2698,
+  "hoehe_F": 1.08,
+  "kb": 53
+ },
+ {
+  "datei": "figuren/09_Ringhaven/rin-k3.glb",
+  "name": "rin-k3",
+  "teile": 14,
+  "dreiecke": 1652,
+  "hoehe_F": 0.9,
+  "kb": 34
+ },
+ {
+  "datei": "figuren/09_Ringhaven/rin-n1.glb",
+  "name": "rin-n1",
+  "teile": 19,
+  "dreiecke": 2522,
+  "hoehe_F": 1,
+  "kb": 48
+ },
+ {
+  "datei": "figuren/09_Ringhaven/rin-n2.glb",
+  "name": "rin-n2",
+  "teile": 19,
+  "dreiecke": 2730,
+  "hoehe_F": 0.9,
+  "kb": 55
+ },
+ {
+  "datei": "schiffe/09_Ringhaven/rin-p_gelandet.glb",
+  "name": "rin-p",
+  "teile": 15,
+  "dreiecke": 2242,
+  "hoehe_F": 2.87,
+  "kb": 46
+ },
+ {
+  "datei": "schiffe/09_Ringhaven/rin-p_offen.glb",
+  "name": "rin-p_offen",
+  "teile": 16,
+  "dreiecke": 2410,
+  "hoehe_F": 2.88,
+  "kb": 50
+ },
+ {
+  "datei": "schiffe/09_Ringhaven/rin-f_gelandet.glb",
+  "name": "rin-f",
+  "teile": 28,
+  "dreiecke": 4124,
+  "hoehe_F": 3.25,
+  "kb": 89
+ },
+ {
+  "datei": "schiffe/09_Ringhaven/rin-f_offen.glb",
+  "name": "rin-f_offen",
+  "teile": 29,
+  "dreiecke": 4148,
+  "hoehe_F": 3.26,
+  "kb": 91
+ },
+ {
+  "datei": "figuren/10_AbyssalCrown/aby-k1.glb",
+  "name": "aby-k1",
+  "teile": 19,
+  "dreiecke": 2790,
+  "hoehe_F": 1.03,
+  "kb": 53
+ },
+ {
+  "datei": "figuren/10_AbyssalCrown/aby-k2.glb",
+  "name": "aby-k2",
+  "teile": 19,
+  "dreiecke": 2178,
+  "hoehe_F": 0.98,
+  "kb": 43
+ },
+ {
+  "datei": "figuren/10_AbyssalCrown/aby-k3.glb",
+  "name": "aby-k3",
+  "teile": 20,
+  "dreiecke": 3024,
+  "hoehe_F": 0.93,
+  "kb": 55
+ },
+ {
+  "datei": "figuren/10_AbyssalCrown/aby-n1.glb",
+  "name": "aby-n1",
+  "teile": 18,
+  "dreiecke": 2498,
+  "hoehe_F": 1.1,
+  "kb": 47
+ },
+ {
+  "datei": "figuren/10_AbyssalCrown/aby-n2.glb",
+  "name": "aby-n2",
+  "teile": 16,
+  "dreiecke": 2420,
+  "hoehe_F": 0.98,
+  "kb": 47
+ },
+ {
+  "datei": "schiffe/10_AbyssalCrown/aby-p_gelandet.glb",
+  "name": "aby-p",
+  "teile": 14,
+  "dreiecke": 2078,
+  "hoehe_F": 2.63,
+  "kb": 43
+ },
+ {
+  "datei": "schiffe/10_AbyssalCrown/aby-p_offen.glb",
+  "name": "aby-p_offen",
+  "teile": 15,
+  "dreiecke": 2090,
+  "hoehe_F": 2.64,
+  "kb": 44
+ },
+ {
+  "datei": "schiffe/10_AbyssalCrown/aby-f_gelandet.glb",
+  "name": "aby-f",
+  "teile": 16,
+  "dreiecke": 2732,
+  "hoehe_F": 4.14,
+  "kb": 57
+ },
+ {
+  "datei": "schiffe/10_AbyssalCrown/aby-f_offen.glb",
+  "name": "aby-f_offen",
+  "teile": 18,
+  "dreiecke": 2844,
+  "hoehe_F": 4.14,
+  "kb": 61
+ },
+ {
+  "datei": "personal/Kassierer/kas_grundmodell.glb",
+  "name": "kas_grundmodell",
+  "teile": 18,
+  "dreiecke": 2210,
+  "hoehe_F": 0.98,
+  "kb": 44
+ },
+ {
+  "datei": "personal/Kassierer/kas_pel.glb",
+  "name": "kas_pel",
+  "teile": 19,
+  "dreiecke": 2542,
+  "hoehe_F": 0.98,
+  "kb": 53
+ },
+ {
+  "datei": "personal/Kassierer/kas_cor.glb",
+  "name": "kas_cor",
+  "teile": 19,
+  "dreiecke": 2350,
+  "hoehe_F": 0.98,
+  "kb": 48
+ },
+ {
+  "datei": "personal/Kassierer/kas_ver.glb",
+  "name": "kas_ver",
+  "teile": 19,
+  "dreiecke": 2286,
+  "hoehe_F": 0.98,
+  "kb": 47
+ },
+ {
+  "datei": "personal/Kassierer/kas_dun.glb",
+  "name": "kas_dun",
+  "teile": 19,
+  "dreiecke": 2408,
+  "hoehe_F": 1.01,
+  "kb": 48
+ },
+ {
+  "datei": "personal/Kassierer/kas_fro.glb",
+  "name": "kas_fro",
+  "teile": 18,
+  "dreiecke": 2350,
+  "hoehe_F": 0.98,
+  "kb": 47
+ },
+ {
+  "datei": "personal/Kassierer/kas_emb.glb",
+  "name": "kas_emb",
+  "teile": 18,
+  "dreiecke": 2366,
+  "hoehe_F": 0.98,
+  "kb": 49
+ },
+ {
+  "datei": "personal/Kassierer/kas_pri.glb",
+  "name": "kas_pri",
+  "teile": 20,
+  "dreiecke": 2294,
+  "hoehe_F": 0.98,
+  "kb": 47
+ },
+ {
+  "datei": "personal/Kassierer/kas_spo.glb",
+  "name": "kas_spo",
+  "teile": 18,
+  "dreiecke": 2342,
+  "hoehe_F": 0.98,
+  "kb": 46
+ },
+ {
+  "datei": "personal/Kassierer/kas_rin.glb",
+  "name": "kas_rin",
+  "teile": 19,
+  "dreiecke": 2378,
+  "hoehe_F": 1,
+  "kb": 48
+ },
+ {
+  "datei": "personal/Kassierer/kas_aby.glb",
+  "name": "kas_aby",
+  "teile": 19,
+  "dreiecke": 2722,
+  "hoehe_F": 0.98,
+  "kb": 51
+ },
+ {
+  "datei": "personal/Warenauffueller/auf_grundmodell.glb",
+  "name": "auf_grundmodell",
+  "teile": 19,
+  "dreiecke": 2752,
+  "hoehe_F": 0.94,
+  "kb": 54
+ },
+ {
+  "datei": "personal/Warenauffueller/auf_pel.glb",
+  "name": "auf_pel",
+  "teile": 19,
+  "dreiecke": 2576,
+  "hoehe_F": 0.94,
+  "kb": 52
+ },
+ {
+  "datei": "personal/Warenauffueller/auf_cor.glb",
+  "name": "auf_cor",
+  "teile": 19,
+  "dreiecke": 2664,
+  "hoehe_F": 0.94,
+  "kb": 52
+ },
+ {
+  "datei": "personal/Warenauffueller/auf_ver.glb",
+  "name": "auf_ver",
+  "teile": 19,
+  "dreiecke": 2664,
+  "hoehe_F": 0.94,
+  "kb": 52
+ },
+ {
+  "datei": "personal/Warenauffueller/auf_dun.glb",
+  "name": "auf_dun",
+  "teile": 19,
+  "dreiecke": 2576,
+  "hoehe_F": 0.94,
+  "kb": 49
+ },
+ {
+  "datei": "personal/Warenauffueller/auf_fro.glb",
+  "name": "auf_fro",
+  "teile": 18,
+  "dreiecke": 2748,
+  "hoehe_F": 0.94,
+  "kb": 53
+ },
+ {
+  "datei": "personal/Warenauffueller/auf_emb.glb",
+  "name": "auf_emb",
+  "teile": 20,
+  "dreiecke": 2888,
+  "hoehe_F": 0.95,
+  "kb": 56
+ },
+ {
+  "datei": "personal/Warenauffueller/auf_pri.glb",
+  "name": "auf_pri",
+  "teile": 19,
+  "dreiecke": 2752,
+  "hoehe_F": 0.94,
+  "kb": 55
+ },
+ {
+  "datei": "personal/Warenauffueller/auf_spo.glb",
+  "name": "auf_spo",
+  "teile": 19,
+  "dreiecke": 2664,
+  "hoehe_F": 0.94,
+  "kb": 52
+ },
+ {
+  "datei": "personal/Warenauffueller/auf_rin.glb",
+  "name": "auf_rin",
+  "teile": 20,
+  "dreiecke": 2872,
+  "hoehe_F": 0.94,
+  "kb": 56
+ },
+ {
+  "datei": "personal/Warenauffueller/auf_aby.glb",
+  "name": "auf_aby",
+  "teile": 19,
+  "dreiecke": 2752,
+  "hoehe_F": 0.94,
+  "kb": 54
+ },
+ {
+  "datei": "personal/Reinigungskraft/rei_grundmodell.glb",
+  "name": "rei_grundmodell",
+  "teile": 18,
+  "dreiecke": 2318,
+  "hoehe_F": 0.98,
+  "kb": 46
+ },
+ {
+  "datei": "personal/Reinigungskraft/rei_pel.glb",
+  "name": "rei_pel",
+  "teile": 19,
+  "dreiecke": 2516,
+  "hoehe_F": 1,
+  "kb": 52
+ },
+ {
+  "datei": "personal/Reinigungskraft/rei_cor.glb",
+  "name": "rei_cor",
+  "teile": 18,
+  "dreiecke": 2438,
+  "hoehe_F": 0.98,
+  "kb": 48
+ },
+ {
+  "datei": "personal/Reinigungskraft/rei_ver.glb",
+  "name": "rei_ver",
+  "teile": 19,
+  "dreiecke": 2462,
+  "hoehe_F": 0.98,
+  "kb": 49
+ },
+ {
+  "datei": "personal/Reinigungskraft/rei_dun.glb",
+  "name": "rei_dun",
+  "teile": 19,
+  "dreiecke": 2492,
+  "hoehe_F": 1,
+  "kb": 49
+ },
+ {
+  "datei": "personal/Reinigungskraft/rei_fro.glb",
+  "name": "rei_fro",
+  "teile": 19,
+  "dreiecke": 2494,
+  "hoehe_F": 0.98,
+  "kb": 49
+ },
+ {
+  "datei": "personal/Reinigungskraft/rei_emb.glb",
+  "name": "rei_emb",
+  "teile": 18,
+  "dreiecke": 2526,
+  "hoehe_F": 0.98,
+  "kb": 51
+ },
+ {
+  "datei": "personal/Reinigungskraft/rei_pri.glb",
+  "name": "rei_pri",
+  "teile": 19,
+  "dreiecke": 2358,
+  "hoehe_F": 0.98,
+  "kb": 47
+ },
+ {
+  "datei": "personal/Reinigungskraft/rei_spo.glb",
+  "name": "rei_spo",
+  "teile": 19,
+  "dreiecke": 2470,
+  "hoehe_F": 0.99,
+  "kb": 49
+ },
+ {
+  "datei": "personal/Reinigungskraft/rei_rin.glb",
+  "name": "rei_rin",
+  "teile": 18,
+  "dreiecke": 2494,
+  "hoehe_F": 0.98,
+  "kb": 50
+ },
+ {
+  "datei": "personal/Reinigungskraft/rei_aby.glb",
+  "name": "rei_aby",
+  "teile": 19,
+  "dreiecke": 2438,
+  "hoehe_F": 0.98,
+  "kb": 48
+ },
+ {
+  "datei": "personal/Manager/man_grundmodell.glb",
+  "name": "man_grundmodell",
+  "teile": 22,
+  "dreiecke": 2466,
+  "hoehe_F": 1.11,
+  "kb": 50
+ },
+ {
+  "datei": "personal/Manager/man_pel.glb",
+  "name": "man_pel",
+  "teile": 22,
+  "dreiecke": 2466,
+  "hoehe_F": 1.11,
+  "kb": 50
+ },
+ {
+  "datei": "personal/Manager/man_cor.glb",
+  "name": "man_cor",
+  "teile": 22,
+  "dreiecke": 2562,
+  "hoehe_F": 1.11,
+  "kb": 52
+ },
+ {
+  "datei": "personal/Manager/man_ver.glb",
+  "name": "man_ver",
+  "teile": 22,
+  "dreiecke": 2594,
+  "hoehe_F": 1.11,
+  "kb": 52
+ },
+ {
+  "datei": "personal/Manager/man_dun.glb",
+  "name": "man_dun",
+  "teile": 22,
+  "dreiecke": 2522,
+  "hoehe_F": 1.11,
+  "kb": 51
+ },
+ {
+  "datei": "personal/Manager/man_fro.glb",
+  "name": "man_fro",
+  "teile": 22,
+  "dreiecke": 2706,
+  "hoehe_F": 1.11,
+  "kb": 55
+ },
+ {
+  "datei": "personal/Manager/man_emb.glb",
+  "name": "man_emb",
+  "teile": 22,
+  "dreiecke": 2522,
+  "hoehe_F": 1.11,
+  "kb": 52
+ },
+ {
+  "datei": "personal/Manager/man_pri.glb",
+  "name": "man_pri",
+  "teile": 22,
+  "dreiecke": 2486,
+  "hoehe_F": 1.11,
+  "kb": 50
+ },
+ {
+  "datei": "personal/Manager/man_spo.glb",
+  "name": "man_spo",
+  "teile": 22,
+  "dreiecke": 2466,
+  "hoehe_F": 1.11,
+  "kb": 50
+ },
+ {
+  "datei": "personal/Manager/man_rin.glb",
+  "name": "man_rin",
+  "teile": 22,
+  "dreiecke": 2486,
+  "hoehe_F": 1.11,
+  "kb": 50
+ },
+ {
+  "datei": "personal/Manager/man_aby.glb",
+  "name": "man_aby",
+  "teile": 23,
+  "dreiecke": 2862,
+  "hoehe_F": 1.11,
+  "kb": 55
+ },
+ {
+  "datei": "personal/Sicherheitskraft/sic_grundmodell.glb",
+  "name": "sic_grundmodell",
+  "teile": 22,
+  "dreiecke": 2740,
+  "hoehe_F": 1.04,
+  "kb": 52
+ },
+ {
+  "datei": "personal/Sicherheitskraft/sic_pel.glb",
+  "name": "sic_pel",
+  "teile": 22,
+  "dreiecke": 2684,
+  "hoehe_F": 1.04,
+  "kb": 54
+ },
+ {
+  "datei": "personal/Sicherheitskraft/sic_cor.glb",
+  "name": "sic_cor",
+  "teile": 22,
+  "dreiecke": 2740,
+  "hoehe_F": 1.04,
+  "kb": 53
+ },
+ {
+  "datei": "personal/Sicherheitskraft/sic_ver.glb",
+  "name": "sic_ver",
+  "teile": 22,
+  "dreiecke": 2708,
+  "hoehe_F": 1.03,
+  "kb": 52
+ },
+ {
+  "datei": "personal/Sicherheitskraft/sic_dun.glb",
+  "name": "sic_dun",
+  "teile": 22,
+  "dreiecke": 2740,
+  "hoehe_F": 1.04,
+  "kb": 52
+ },
+ {
+  "datei": "personal/Sicherheitskraft/sic_fro.glb",
+  "name": "sic_fro",
+  "teile": 21,
+  "dreiecke": 2848,
+  "hoehe_F": 1.04,
+  "kb": 56
+ },
+ {
+  "datei": "personal/Sicherheitskraft/sic_emb.glb",
+  "name": "sic_emb",
+  "teile": 23,
+  "dreiecke": 2948,
+  "hoehe_F": 1.04,
+  "kb": 57
+ },
+ {
+  "datei": "personal/Sicherheitskraft/sic_pri.glb",
+  "name": "sic_pri",
+  "teile": 23,
+  "dreiecke": 2780,
+  "hoehe_F": 1.04,
+  "kb": 54
+ },
+ {
+  "datei": "personal/Sicherheitskraft/sic_spo.glb",
+  "name": "sic_spo",
+  "teile": 22,
+  "dreiecke": 2796,
+  "hoehe_F": 1.04,
+  "kb": 55
+ },
+ {
+  "datei": "personal/Sicherheitskraft/sic_rin.glb",
+  "name": "sic_rin",
+  "teile": 23,
+  "dreiecke": 2860,
+  "hoehe_F": 1.04,
+  "kb": 55
+ },
+ {
+  "datei": "personal/Sicherheitskraft/sic_aby.glb",
+  "name": "sic_aby",
+  "teile": 22,
+  "dreiecke": 2740,
+  "hoehe_F": 1.04,
+  "kb": 53
+ }
+]
